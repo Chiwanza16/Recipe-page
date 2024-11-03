@@ -26,8 +26,8 @@
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution URL](https://github.com/Chiwanza16/Recipe-page.git)
+- Live Site URL: [Live site](https://chiwanza16.github.io/Recipe-page/)
 
 ## My process
 
