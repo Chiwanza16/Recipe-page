@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* Global Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --padding: 0 2rem 2rem 2rem;
+    --heading-padding:  0 2rem 1rem 2rem;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    padding: var(--heading-padding);
+}
+
+li{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: .5rem;
+    color: hsl(30, 10%, 34%);
+    opacity: .8;
+}
+
+span{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+ 
+/* End of Global Styles */
+
+
+.card-wrapper{
+    width: 35%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    margin:2rem auto;
+    border-radius: 1.3rem;
+}
+
+
+.card-wrapper img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.card-wrapper h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Young Serif", serif;
+    padding: var(--padding);
+    color: hsl(24, 5%, 18%);
+    opacity: .8;
+}
+
+.card-wrapper p{
+    padding: var(--padding);
+    color: hsl(30, 10%, 34%);
+    opacity: .8;
+}
+
+.prep-time {
+    background-color: hsla(332, 51%, 32%, 0.103);
+    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: .5rem;
+}
+
+.prep-time h3{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 1rem;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time ul{
+    padding: 0 0 0 2rem;
+}
+
+.ingredients{
+    width: 90%;
+    margin: 2rem;
+    border-bottom: .1rem solid hsla(32, 10%, 34%, 0.308);
+}
+
+.ingredients ul{
+    padding: 0 0 1rem 3.5rem; 
+}
+
+.instructions{
+    width: 90%;
+    margin: 2rem;
+    border-bottom: .1rem solid hsla(32, 10%, 34%, 0.308);
+}
+
+.instructions ol {
+    padding: 0 0 1rem 3.5rem; 
+}
+
+.nutrition-items {
+    width: 80%;
+    margin: 0 2rem;
+}
+
+.nutrition-1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .1rem solid hsla(32, 10%, 34%, 0.308);
+}
+
+
+.nutrition-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-bottom: .1rem solid hsla(32, 10%, 34%, 0.308);
+}
+
+
+.nutrition-3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-bottom: .1rem solid hsla(32, 10%, 34%, 0.308);
+}
+
+.nutrition-4 {
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.nutrition-items .units{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+    padding: var(--heading-padding);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
